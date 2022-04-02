@@ -38,4 +38,5 @@ while(True):
     if cv2.waitKey(1) == ord('q'):
         break
 
+cv2.imwrite("sketch.png",sketch_image)
 cv2.destroyAllWindows()
