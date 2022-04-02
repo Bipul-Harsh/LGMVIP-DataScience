@@ -1,23 +1,3 @@
-# import cv2
-# import matplotlib.pyplot as plt
-# from sklearn.preprocessing import scale
-
-
-# img = cv2.imread('./image.webp')
-# gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-# inverted_img = cv2.bitwise_not(gray_img)
-# smooth_img = cv2.GaussianBlur(inverted_img, (21, 21), sigmaX=0, sigmaY=0)
-# def divide(x,y):
-#     return cv2.divide(x, 255-y, scale=256)
-# img = divide(gray_img, smooth_img)
-
-# while True:
-    
-#     cv2.imshow('image', img)
-#     if cv2.waitKey(1) == ord('q'):
-#         break
-# cv2.destroyAllWindows()
-
 import cv2
 import numpy as np
 import argparse
